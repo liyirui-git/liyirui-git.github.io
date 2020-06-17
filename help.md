@@ -1,3 +1,13 @@
+## 文件目录
+
+```
+-- tech 存放技术博客的markdown文章
+-- help.md 是相当于之前的README.md
+-- push.cpp 是一个简化 git push 操作的程序
+-- push.exe 是Dev C++用push.cpp生成的可执行文件
+-- README.md 当作是我的博客的front page
+```
+
 ## How to use github.io page
 
 （ ----------------- 以下是原README.md中的内容 ----------------------- ）

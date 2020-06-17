@@ -8,7 +8,7 @@ In this paper, they propose a novel two-view KG embedding model, $JOIE$, with th
 
 下图展示了实体图谱与本体图谱之间的关系
 
-![image-20200604155038669]((2019-KDD) Universal Representation Learning of Knowledge Bases by Jointly Embedding Instances and Ontological Concepts.assets/image-20200604155038669.png)
+![image-20200604155038669](JOIE.assets/image-20200604155038669.png)
 
 
 
@@ -27,7 +27,7 @@ cross-view grouping 技术保证了当前的两种view（视图、视角）能�
 
 ## 2 建模
 
-![image-20200604210352451]((2019-KDD) Universal Representation Learning of Knowledge Bases by Jointly Embedding Instances and Ontological Concepts.assets/image-20200604210352451.png)
+![image-20200604210352451](JOIE.assets/image-20200604210352451.png)
 
 ### 2.1 Cross-view Association Model
 
@@ -43,7 +43,7 @@ J_{\mathrm{Cross}}^{\mathrm{CG}}=\frac{1}{|\mathcal{S}|} \sum_{(e, c) \in \mathc
 $$
 这里的$[x]_+$与 $TransE$ 中的类似，$[x]_+=max\{x, 0\}$，这一设计使得实体的向量表示$e$落在了半径为 $\gamma^{\mathrm{CG}}$ 大小的圆内。最终实体以本体为中心形成一种聚类的效果。
 
-![image-20200604230736315]((2019-KDD) Universal Representation Learning of Knowledge Bases by Jointly Embedding Instances and Ontological Concepts.assets/image-20200604230736315.png)
+![image-20200604230736315](JOIE.assets/image-20200604230736315.png)
 
 #### Cross-view Transformation (CT)
 

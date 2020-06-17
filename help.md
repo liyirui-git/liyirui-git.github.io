@@ -1,6 +1,6 @@
 ## How to use github.io page
 
-（以下是原README.md中的内容）
+（ ----------------- 以下是原README.md中的内容 ----------------------- ）
 
 You can use the [editor on GitHub](https://github.com/iry-lee/iry-lee.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 

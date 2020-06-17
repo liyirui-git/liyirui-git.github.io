@@ -4,7 +4,7 @@ Win10 家庭版 2004 版本以后拥有了WSL2 可以使用Docker了。
 
 在我这里无论是Win10 Home 还是 Win10 Pro，Docker都与VMware存在冲突。
 
-有的时候会遇到：
+结果就是安装完Docker准备运行的时候会遇到：
 
 > Hardware assisted virtualization and data execution protection must be enabled in the BIOS. See https://docs.docker.com/docker-for-windows/troubleshoot/#virtualization-must-be-enabled
 

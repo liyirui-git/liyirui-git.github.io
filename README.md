@@ -6,5 +6,7 @@
 
 ## [折腾](tech/折腾.md)
 
+## [足迹地图](life/足迹地图.md)
+
 ## [Help](help.md)
 

@@ -4,7 +4,7 @@ from pyecharts.faker import Faker
 
 # 生成城市地图
 c1 = (
-    Map(init_opts=opts.InitOpts(width="1280px", height="720px"))
+    Map(init_opts=opts.InitOpts(width="1000px", height="1000px"))
     .add(
         "我的足迹",
         [
@@ -43,7 +43,7 @@ c1 = (
 
 # 生成省份地图
 c2 = (
-    Map(init_opts=opts.InitOpts(width="1280px", height="720px"))
+    Map(init_opts=opts.InitOpts(width="1000px", height="1000px"))
     .add(
         "我的足迹",
         [

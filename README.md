@@ -2,8 +2,6 @@
 
 ## [图神经网络](tech/gcn.md)
 
-## [初识Docker](tech/docker.md)
-
 ## [折腾](tech/折腾.md)
 
 ## [足迹地图](life/足迹地图.md)

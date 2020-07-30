@@ -4,7 +4,7 @@ from pyecharts.faker import Faker
 
 # 生成城市地图
 c1 = (
-    Map(init_opts=opts.InitOpts(width="1920px", height="1080px"))
+    Map(init_opts=opts.InitOpts(width="1280px", height="720px"))
     .add(
         "我的足迹",
         [
@@ -38,12 +38,12 @@ c1 = (
         title_opts=opts.TitleOpts(title="Map-中国地图（带城市）"),
         visualmap_opts=opts.VisualMapOpts(),
     )
-    .render("map_china_cities.html")
+    .render("C:\\Users\\11029\\Documents\\iry-lee.github.io\\life\\足迹地图\\map_china_cities.md")
 )
 
 # 生成省份地图
 c2 = (
-    Map(init_opts=opts.InitOpts(width="1920px", height="1080px"))
+    Map(init_opts=opts.InitOpts(width="1280px", height="720px"))
     .add(
         "我的足迹",
         [
@@ -59,5 +59,5 @@ c2 = (
         title_opts=opts.TitleOpts(title="Map-中国地图"),
         visualmap_opts=opts.VisualMapOpts(),
     )
-    .render("map_china.html")
+    .render("C:\\Users\\11029\\Documents\\iry-lee.github.io\\life\\足迹地图\\map_china.md")
 )

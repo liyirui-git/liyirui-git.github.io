@@ -8,11 +8,11 @@
 
 </head>
 <body>
-    <div id="9c69c8b5740b444291f38b93e6a086ff" class="chart-container" style="width:1920px; height:1080px;"></div>
+    <div id="ff77039c10c145f3891e37f2d47bef9a" class="chart-container" style="width:1280px; height:720px;"></div>
     <script>
-        var chart_9c69c8b5740b444291f38b93e6a086ff = echarts.init(
-            document.getElementById('9c69c8b5740b444291f38b93e6a086ff'), 'white', {renderer: 'canvas'});
-        var option_9c69c8b5740b444291f38b93e6a086ff = {
+        var chart_ff77039c10c145f3891e37f2d47bef9a = echarts.init(
+            document.getElementById('ff77039c10c145f3891e37f2d47bef9a'), 'white', {renderer: 'canvas'});
+        var option_ff77039c10c145f3891e37f2d47bef9a = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -250,7 +250,7 @@
         "borderWidth": 0
     }
 };
-        chart_9c69c8b5740b444291f38b93e6a086ff.setOption(option_9c69c8b5740b444291f38b93e6a086ff);
+        chart_ff77039c10c145f3891e37f2d47bef9a.setOption(option_ff77039c10c145f3891e37f2d47bef9a);
     </script>
 </body>
 </html>

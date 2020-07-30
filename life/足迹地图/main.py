@@ -38,7 +38,7 @@ c1 = (
         title_opts=opts.TitleOpts(title="Map-中国地图（带城市）"),
         visualmap_opts=opts.VisualMapOpts(),
     )
-    .render("C:\\Users\\11029\\Documents\\iry-lee.github.io\\life\\足迹地图\\map_china_cities.md")
+    .render("C:\\Users\\11029\\Documents\\iry-lee.github.io\\life\\足迹地图\\map_china_cities.html")
 )
 
 # 生成省份地图
@@ -59,5 +59,5 @@ c2 = (
         title_opts=opts.TitleOpts(title="Map-中国地图"),
         visualmap_opts=opts.VisualMapOpts(),
     )
-    .render("C:\\Users\\11029\\Documents\\iry-lee.github.io\\life\\足迹地图\\map_china.md")
+    .render("C:\\Users\\11029\\Documents\\iry-lee.github.io\\life\\足迹地图\\map_china.html")
 )

@@ -90,3 +90,5 @@ $ sudo service xrdp restart
 ### 5. 参考资料
 
 1. [WSL使用图形界面（ubuntu）](https://blog.csdn.net/cs95dn/article/details/93224607)
+
+2. [WSL-Ubuntu 安装Xubuntu-Desktop 记录](https://www.cnblogs.com/iblackly/p/11740807.html)

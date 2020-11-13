@@ -6,7 +6,7 @@
 
 ## [足迹地图](life/足迹地图.md)
 
-## [Help](help.md)
+## [相关帮助](help.md)
 
 
 

@@ -10,7 +10,5 @@
 
 
 
-#### 友情链接：
-
-[jingtao's Blog](https://jingtao.fun)
+#### 友情链接：[jingtao's Blog](https://jingtao.fun)
 

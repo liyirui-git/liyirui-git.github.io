@@ -12,5 +12,5 @@
 
 #### 友情链接：
 
-[jingtao's Blog](jingtao.fun)
+[jingtao's Blog](https://jingtao.fun)
 

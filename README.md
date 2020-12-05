@@ -10,7 +10,7 @@
 
 ## [相关帮助](help.md)
 
-## [临时链接]([Ubuntu Pastebin](https://paste.ubuntu.com/p/SZzvgy6tnj/))
+## 临时链接：[Ubuntu Pastebin](https://paste.ubuntu.com/p/SZzvgy6tnj/)
 
 #### 友情链接：[jingtao's Blog](https://jingtao.fun)
 

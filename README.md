@@ -10,7 +10,9 @@
 
 ## [相关帮助](help.md)
 
-## 临时链接：[Ubuntu Pastebin](https://paste.ubuntu.com/p/SZzvgy6tnj/)
+## [云文本编辑器]()
+
+云文本编辑器是一个简单的文本文档的分享链接，通过在云服务器上开启一个服务来实现，目前还在开发。
 
 #### 友情链接：[jingtao's Blog](https://jingtao.fun)
 

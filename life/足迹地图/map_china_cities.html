@@ -8,11 +8,11 @@
 
 </head>
 <body>
-    <div id="4670dab124134453bc8d580846e53caa" class="chart-container" style="width:1280px; height:720px;"></div>
+    <div id="92423819d4534b0897b31e78b7627896" class="chart-container" style="width:1280px; height:720px;"></div>
     <script>
-        var chart_4670dab124134453bc8d580846e53caa = echarts.init(
-            document.getElementById('4670dab124134453bc8d580846e53caa'), 'white', {renderer: 'canvas'});
-        var option_4670dab124134453bc8d580846e53caa = {
+        var chart_92423819d4534b0897b31e78b7627896 = echarts.init(
+            document.getElementById('92423819d4534b0897b31e78b7627896'), 'white', {renderer: 'canvas'});
+        var option_92423819d4534b0897b31e78b7627896 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -48,6 +48,26 @@
         "#918597"
     ],
     "series": [
+        {
+            "type": "map",
+            "name": "\u6211\u548c\u6854\u6854\u7684\u8db3\u8ff9",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "china-cities",
+            "data": [
+                {
+                    "name": "\u5317\u4eac",
+                    "value": 23
+                }
+            ],
+            "roam": true,
+            "zoom": 1,
+            "showLegendSymbol": true,
+            "emphasis": {}
+        },
         {
             "type": "map",
             "name": "\u6211\u7684\u8db3\u8ff9",
@@ -192,9 +212,11 @@
     "legend": [
         {
             "data": [
+                "\u6211\u548c\u6854\u6854\u7684\u8db3\u8ff9",
                 "\u6211\u7684\u8db3\u8ff9"
             ],
             "selected": {
+                "\u6211\u548c\u6854\u6854\u7684\u8db3\u8ff9": true,
                 "\u6211\u7684\u8db3\u8ff9": true
             },
             "show": true,
@@ -250,7 +272,7 @@
         "borderWidth": 0
     }
 };
-        chart_4670dab124134453bc8d580846e53caa.setOption(option_4670dab124134453bc8d580846e53caa);
+        chart_92423819d4534b0897b31e78b7627896.setOption(option_92423819d4534b0897b31e78b7627896);
     </script>
 </body>
 </html>

@@ -8,11 +8,11 @@
 
 </head>
 <body>
-    <div id="d5d58ecb4f6c4fbb960a802073259b97" class="chart-container" style="width:1280px; height:720px;"></div>
+    <div id="7fb09620ecde47acba5e01a89c50d147" class="chart-container" style="width:1280px; height:720px;"></div>
     <script>
-        var chart_d5d58ecb4f6c4fbb960a802073259b97 = echarts.init(
-            document.getElementById('d5d58ecb4f6c4fbb960a802073259b97'), 'white', {renderer: 'canvas'});
-        var option_d5d58ecb4f6c4fbb960a802073259b97 = {
+        var chart_7fb09620ecde47acba5e01a89c50d147 = echarts.init(
+            document.getElementById('7fb09620ecde47acba5e01a89c50d147'), 'white', {renderer: 'canvas'});
+        var option_7fb09620ecde47acba5e01a89c50d147 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -48,6 +48,26 @@
         "#918597"
     ],
     "series": [
+        {
+            "type": "map",
+            "name": "\u6211\u548c\u6854\u6854\u7684\u8db3\u8ff9",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "china",
+            "data": [
+                {
+                    "name": "\u5317\u4eac",
+                    "value": 23
+                }
+            ],
+            "roam": true,
+            "zoom": 1,
+            "showLegendSymbol": true,
+            "emphasis": {}
+        },
         {
             "type": "map",
             "name": "\u6211\u7684\u8db3\u8ff9",
@@ -124,9 +144,11 @@
     "legend": [
         {
             "data": [
+                "\u6211\u548c\u6854\u6854\u7684\u8db3\u8ff9",
                 "\u6211\u7684\u8db3\u8ff9"
             ],
             "selected": {
+                "\u6211\u548c\u6854\u6854\u7684\u8db3\u8ff9": true,
                 "\u6211\u7684\u8db3\u8ff9": true
             },
             "show": true,
@@ -182,7 +204,7 @@
         "borderWidth": 0
     }
 };
-        chart_d5d58ecb4f6c4fbb960a802073259b97.setOption(option_d5d58ecb4f6c4fbb960a802073259b97);
+        chart_7fb09620ecde47acba5e01a89c50d147.setOption(option_7fb09620ecde47acba5e01a89c50d147);
     </script>
 </body>
 </html>

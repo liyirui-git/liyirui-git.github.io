@@ -24,6 +24,6 @@
 
 参考[链接](https://github.com/microsoft/vscode-remote-release/issues/2507)，解决方案是删除对应硬链接（上图第一段标绿链接）下的同名文件与同名target文件，如下红框部分（图示服务器不同，所以路径有所区别）：
 
-![img](https://www.freesion.com/images/501/de63051bdd9b10b8e76b49168da92bdd.png)
+![img](VSCode连接远程服务器遇到的问题.assets/de63051bdd9b10b8e76b49168da92bdd.png)
 
 删除后报错得到解决。

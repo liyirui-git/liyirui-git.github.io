@@ -76,6 +76,28 @@ $ docker stop [CONTAINER ID]或[CONTAINER NAME]
 
 ##### 连接一个容器
 
+```
+$ docker exec -it [CONTAINER ID] /bin/bash
+```
+
+用exec命令的好处是，在从container中使用 `exit` 命令退出时，容器不会停止运行。
+
+
+
+##### 本机文件与容器文件相互复制
+
+如果不进容器，在宿主机上操作也可以用docker命令实现宿主机和容器内部的文件交互,以下是在宿主机操作
+
+把宿主机上的文件复制到docker容器内部
+
+    $ docker cp [/path/filename] [CONTAINER ID]:[/path/filename]
+
+也可以把docker容器内部的文件复制到本地
+
+```
+$ docker cp [CONTAINER ID]:[/path/filename] [/path/filename]
+```
+
 
 
 ### 2. 扩展功能

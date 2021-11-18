@@ -35,15 +35,7 @@ re_path(r't ask2/1/', view.run_task2_1),
 
 #### HTML模板
 
-注意，这里如果没有`enctype="multipart/form-data"`、`{% csrf_token %}`、`onChange="document.forms['form'].submit();"`都不行。
-
-```python
-<form enctype="multipart/form-data" name="form" action="/task2/1/" method="post">{% csrf_token %}
-<input id="image-upload" type="file" name="task2_1_image" accept=".png, .jpg" onChange="document.forms['form'].submit();"/>
-</form>
-```
-
-
+![image-20211118171356723](Python+Django.assets/image-20211118171356723-16372268395101.png)
 
 主要参考链接：https://www.jianshu.com/p/4e6773f59067
 
@@ -91,33 +83,13 @@ re_path(r't ask2/1/', view.run_task2_1),
 >
 > #### HTML模板
 >
-> ```html
-> <body>
->     <form enctype="multipart/form-data" name='form' method="post" action="/upload/">{% csrf_token %}
->     <input type="file" name="upload_file" onChange="document.forms['form'].submit();"/>
-> </body>
-> ```
+> ![image-20211118171428332](Python+Django.assets/image-20211118171428332.png)
 >
 > 
 >
 > #### 隐藏input按钮
 >
-> ```html
-> <head>
->     <title>文件上传</title>
->     <script>
->         function click_upload() {
->             document.getElementById('input').click();
->         }
->     </script>
-> </head>
-> 
-> <body>
->     <form enctype="multipart/form-data" name='form' method="post" action="/upload/">{% csrf_token %}
->     <input type="file" id='input' name="upload_file" onChange="document.forms['form'].submit();" style='display:none'/>
->     <a href='javascript:click_upload();' >UPLOAD</>
-> </body>
-> ```
+> ![image-20211118171452104](Python+Django.assets/image-20211118171452104.png)
 
 
 
